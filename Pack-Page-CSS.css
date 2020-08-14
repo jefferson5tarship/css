@@ -1,0 +1,528 @@
+/* universal */
+
+#myMainWrapper {
+    /* variables */
+    --main-bg-color: black;
+    /* blue*/
+    --color-one: #3e63a6;
+    /* gray */
+    --color-two: #5c5c5c;
+    /* light gray */
+    --color-three: #d1d1d1;
+    /* dark gray */
+    --color-four: #272727;
+    /* white */
+    --color-white: #FFF;
+}
+
+.wpb_wrapper {
+        background-color: #0d0d0d;
+    color: white;
+    font-size: calc(0.5vw + 1.3rem);
+    font-weight: 600;
+    text-align: center;
+}
+
+.generalBtn {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+h2 {
+    font-family: avantBold;
+    font-size: calc(1vw + 2.8rem);
+}
+
+.noWrap {
+    white-space: nowrap;
+}
+
+/* override wordpress style */
+p {
+    margin: 0;
+}
+
+.paddingOneHalf {
+    padding: 1%
+}
+
+/* section one */
+
+.sectionOneWrapper {
+    padding: 4% 10% 0;
+}
+
+.MainImageContainer {
+    padding: 0 4%;
+}
+
+.mainImage {
+    width: 100%;
+}
+
+.sectionOne {
+        padding: 3% 8% 0;
+}
+
+#headerOne {
+    color: var(--color-one);
+}
+
+.myHeader {
+    font-family: avantBold;
+    font-size: calc(3vw + 2rem);
+    line-height: 1;
+    padding: 1.5% 0;
+}
+
+.innerContainerRow {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.5% 0;
+}
+
+.packDescription {
+    align-self: center;
+    color: var(--color-two);
+    text-align: left;
+    width: 68%;
+    margin-right: 16px;
+}
+
+.myVRuler {
+    border-left: 2px solid #5c5c5c;
+    height: 7rem;
+    margin: auto;
+}
+
+/* buy now section */
+
+.pvContainer {
+    line-height: 1;
+    width: 33%;
+}
+
+.pvTop {
+    padding: 1.5%;
+    font-size: 1.8rem;
+}
+
+.pvBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packPrice {
+    font-family: avantBold;
+    font-size: calc(1vw + 3rem);
+    font-weight: 800;
+    margin: 0 8px;
+}
+
+.buyButton {
+    background-color: #4279ba;
+    border-radius: 28px;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    padding: 7px 16px 5px;
+    min-width: 64px;
+    margin: 8px;
+}
+
+.buyButton:hover {
+	background-color:#2c83bd;
+}
+
+.buyButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* video & sounds section */
+
+.videoContainer {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 0;
+}
+
+#iframeContainer {
+    height: 100%;
+    width: 100%;
+}
+
+#YTBtnText {
+    color: var(--color-three);
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin: 8px;
+    white-space: nowrap;
+}
+
+.playBtn {
+    color: var(--color-one);
+    padding: 16px;
+    margin: 0 16px;
+    position: relative;
+}
+
+.innerContainerColumn {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5% 0;
+}
+
+#smallHeaderOne {
+    color: var(--color-one);
+}
+
+#hearSounds p {
+    color: var(--color-three);
+}
+
+.myHRuler {
+    border: 1px solid #5c5c5c;
+    height: 0px;
+    margin: 16px auto;
+    width: 17%;
+}
+
+/* section two */
+
+.sectionTwo {
+    background-color: #000;
+    padding: 5% 5% 2%;
+}
+/* project section */
+
+.projectsLeft {
+    flex: 0 0 50%;
+    padding: 0 7%;
+    text-align: left;
+}
+
+#smallHeaderTwo {
+    color: var(--color-white);
+}
+
+.projectsLeft p, .projectsRight p {
+    color: var(--color-two);
+}
+
+.projectsRight {
+    flex: 0 0 50%;
+}
+
+.miniText {
+    color: var(--color-two);
+    font-size: 1.3rem;
+}
+
+.miniText span {
+    color: var(--color-one);
+}
+
+.imgContainer {
+    cursor: pointer;
+    overflow: hidden;
+    margin: 5% 0;
+}
+
+.abletonImg {
+    display: block;
+    height: 100%;
+    margin: auto;
+    width: 100%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.buttonContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.5% 0;
+}
+
+.innerBtnContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 50%;
+}
+
+.projectBtn {
+    background-color: transparent;
+    color: var(--color-two);
+    font-size: 1.6rem;
+    font-family: avantBold;
+    margin: 4px auto;
+}
+
+.projectBtn:hover {
+    color: var(--color-one);
+}
+
+.projectBtn:focus {
+    color: var(--color-white);
+}
+
+.projectBtn:active {
+    color: var(--color-white);
+}
+
+#headerTwo {
+    color: var(--color-one);
+}
+
+.myHRulerTwo {
+    border: 1px solid #5c5c5c;
+    height: 0;
+    margin: 16px auto;
+    width: 12%;
+}
+
+/* section three */
+
+.sectionThree {
+    background-color: var(--color-four);
+    padding: 5%;
+}
+
+.soloImageContainer {
+   padding-top: 5%;
+}
+
+.soloImage {
+    width: 100%;
+    padding-left: 10%;
+}
+
+.pvContainerOne {
+    flex: 0 0 45%;
+}
+
+.pvContainerTwo {
+    flex: 0 0 50%;
+}
+
+.pvContainerTwo .pvContainer {
+    width: 100%;
+}
+
+.pvInnerContainer {
+    padding: 3% 0;
+}
+
+#headerThree {
+    color: var(--color-white) !important;
+}
+
+/* button animation */
+
+.playBtn::after {
+    content: '';
+    width: 75%;
+    height: 75%;
+    border-radius: 100%;
+    border: 4px solid #3e63a6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 2s infinite;
+    /*z-index: -1;*/
+  }
+
+  @keyframes ring {
+    0% {
+      width: 32px;
+      height: 32px;
+      opacity: 1;
+              border-color: #3e63a6;
+            -webkit-box-shadow: 0 0 9px #333;
+    }
+    50% {
+      width: 64px;
+      height: 64px;
+        border-color: #4279ba;
+        -webkit-box-shadow: 0 0 36px #4279ba;
+        opacity: 0.7;
+    }
+    100% {
+      width: 32px;
+      height: 32px;
+      opacity: 1;
+         border-color: #3e63a6;
+        -webkit-box-shadow: 0 0 9px #333;
+    }
+  }
+
+/* waveform css*/
+
+.myContainer {
+    text-align: center;
+    margin: 0 4.2%;
+    background-color: #262626;
+    padding: 3.3% 4% 3.3% 6.3%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 5%;
+}
+
+.myItem {
+    padding: 7% 7% 5%;
+}
+
+.waveform{
+    cursor: pointer;
+    padding-top: 1%;
+}
+
+.waveform:hover, .myButton:hover {
+    opacity: 0.8;
+}
+
+.myButton {
+    float: left;
+    cursor: pointer;
+}
+
+.description {
+    font-size:13px;
+    padding-top: 12px;
+    margin-right: 16px;
+}
+
+wave canvas {
+    /*override WordPress style for canvas*/
+    max-width: unset !important;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 1000px) {
+
+.sectionOneWrapper {
+    padding: 4% 5% 0;
+}
+
+.sectionOne {
+     padding: 3% 0 0;
+}
+
+.innerContainerRow {
+    flex-direction: column;
+}
+
+.packDescription {
+    text-align: center;
+    margin-right: 0;
+}
+
+.myVRuler {
+    height: 2rem;
+    visibility: hidden;
+}
+
+.videoContainer {
+    flex-direction: column;
+}
+
+.pvContainer {
+    width: 100%;
+}
+
+.projectsLeft {
+      text-align: center;
+}
+}
+
+@media screen and (max-width: 400px) {
+ .abletonImg {
+     width: 75%;
+ }
+}
+
+ youTube modal
+ The Modal (background)
+.modalOverlay {
+  display: none;
+  opacity: 0;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0);
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.modal-content-overlay {
+    opacity: 1;
+    background-color: rgb(0,0,0);
+    width: 85%;
+    height: 100%;
+    position: relative;
+}
+
+.modal {
+  display: none; /*Hidden by default */
+  opacity: 0;
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+    /*padding-top: 10px;*/
+    width: 84%;
+    position: relative;
+}
+
+/* The Close Button */
+.closeBtn {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+    position: absolute;
+    right: -5%;
+    top: -5%;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+  cursor: pointer;
+}
